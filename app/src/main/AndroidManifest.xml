@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.study.minkook.registeration">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ico_logo3"
+        android:label="수강신청"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name="com.study.minkook.registeration.Splashscreen"
+            android:label="수강신청">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.study.minkook.registeration.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.study.minkook.registeration.RegisterActivity" />
+        <activity android:name="com.study.minkook.registeration.MainActivity"></activity>
+        <activity android:name="com.study.minkook.registeration.Pop"
+            android:theme="@style/AppTheme.Pop"></activity>
+    </application>
+
+</manifest>

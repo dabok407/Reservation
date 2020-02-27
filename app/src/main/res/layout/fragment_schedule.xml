@@ -1,0 +1,1129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.study.minkook.registeration.ScheduleFragment"
+    android:background="@color/colorBackground">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_assignment_black_24dp"
+                android:drawableStart="@drawable/ic_assignment_black_24dp"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="월"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="화"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="수"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="목"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="금"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="8"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="9"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="10"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="11"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="12"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="2"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="3"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="4"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="5"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="6"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="7"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="8"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="right"
+                android:paddingRight="1dp"
+                android:text="9"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/monday13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/tuesday13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/wednesday13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/thursday13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.study.minkook.registeration.AutoResizeTextView
+                android:id="@+id/friday13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>
+
